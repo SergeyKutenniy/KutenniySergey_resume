@@ -6,6 +6,11 @@ h4 {
   margin: 0;
 }
 
+ul,
+ol {
+  padding: 0;
+}
+
 .main-section {
   display: flex;
   flex-direction: row-reverse;
@@ -38,10 +43,10 @@ h4 {
 }
 
 .about-me-discription {
-  width: 600px;
+  width: 100%;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   color: #000000;
 }
@@ -118,6 +123,11 @@ h4 {
   margin: 50px 0 0 40px;
   padding-right: 5px;
 }
+
+.contact-list {
+  padding-left: 15px;
+}
+
 .tech-skills {
   margin: 40px;
 }
@@ -155,7 +165,7 @@ h4 {
 }
 .contact-section-type {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
   margin-right: 7px;
 }
